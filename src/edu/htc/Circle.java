@@ -19,6 +19,10 @@ public class Circle extends Shape {
         return area;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public double getCircumference (){
         diameter = radius * 2;
         circumference = 3.14 * diameter;
